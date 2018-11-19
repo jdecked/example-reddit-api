@@ -18,7 +18,7 @@ type Props = {
   dispatch: Dispatch
 };
 
-class AsyncApp extends Component<Props, State> {
+export class AsyncApp extends Component<Props, State> {
   componentDidMount() {
     const { dispatch, selectedSubreddit } = this.props;
     dispatch(fetchPostsIfNeeded(selectedSubreddit));

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "flow-bin": "^0.86.0",
+    "jest-enzyme": "^7.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^5.1.1",
@@ -27,5 +28,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0"
+  }
 }
